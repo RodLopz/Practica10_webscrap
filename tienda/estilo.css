@@ -1,0 +1,31 @@
+#productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilo para las imágenes de productos */
+.producto img {
+    width: 400px; 
+    height: auto; /* Altura ajustada automáticamente */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Considerar padding y borde en el cálculo del tamaño */
+}
+
+/* Otros estilos permanecen iguales */
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%; /* Ancho fijo para cada producto */
+}
+
+.producto h2 {
+    color: #333;
+}
+
+.producto p {
+    font-weight: bold;
+    color: #009688;
+}
